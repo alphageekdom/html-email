@@ -46,9 +46,40 @@
                     width: 100%;
                 }
 
+                .order-info .order-items .item-left p {
+                    font-size: 12px !important;
+                }
+
+                .order-info .order-items .item-right a,
+                .order-info .order-items .item-right p {
+                    font-size: 12px !important;
+                }
+
                 .order-info .content .btn {
                     font-size: 15px !important;
                     width: 100%;
+                }
+
+                .order-summary .content .summary {
+                    width: 100% !important;
+                    font-size: 16px !important;
+                }
+
+                .order-summary .content .order-items p {
+                    font-size: 12px !important;
+                    font-weight: 400;
+                }
+
+                .what-to-know .content h3 {
+                    font-size: 18px !important;
+                }
+
+                .what-to-know .content h5 {
+                    font-size: 15px !important;
+                }
+
+                .what-to-know .content p {
+                    font-size: 12px !important;
                 }
 
                 .options {
@@ -191,11 +222,12 @@
                                         <td>
                                             <table width="100%" style="border-spacing: 0; margin: 20px 0;" border="0"
                                                 cellspacing="0" cellpadding="0" role="presentation">
-                                                <tr class="order-items" style="margin-bottom: 20px;">
-                                                    <td width="50%">
+                                                <tr style="margin-bottom: 20px;">
+                                                    <td class="order-items" width="50%" border="0" cellspacing="0"
+                                                        cellpadding="0" role="presentation">
                                                         <table>
                                                             <tr>
-                                                                <td>
+                                                                <td class="item-left">
                                                                     <img src="/img/beats-headphones.jpg"
                                                                         alt="Dre Beats Headphones"
                                                                         title="Dre Beats Headphones" width="100"
@@ -221,11 +253,11 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td width="50%">
+                                                    <td width="50%" class="order-items">
                                                         <table border="0" cellspacing="0" cellpadding="0"
                                                             role="presentation">
                                                             <tr>
-                                                                <td>
+                                                                <td class="item-right">
                                                                     <a href="www.example.com" target="_blank"
                                                                         style="font-size: 18px; font-weight: 500; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">Apple
                                                                         Beats - Dre
@@ -238,12 +270,12 @@
                                                         </table>
                                                     </td>
                                                 </tr>
-                                                <tr class="order-items">
-                                                    <td width="50%">
+                                                <tr>
+                                                    <td width="50%" class="order-items">
                                                         <table style="margin-bottom: 20px;" border="0" cellspacing="0"
                                                             cellpadding="0" role="presentation">
                                                             <tr>
-                                                                <td>
+                                                                <td class="item-left">
                                                                     <img src="/img/external-hard-drive.jpg"
                                                                         alt="Dre Beats Headphones"
                                                                         title="Dre Breats Headphones" width="100"
@@ -269,11 +301,11 @@
                                                             </tr>
                                                         </table>
                                                     </td>
-                                                    <td width="50%">
+                                                    <td width="50%" class="order-items">
                                                         <table border="0" cellspacing="0" cellpadding="0"
                                                             role="presentation">
                                                             <tr>
-                                                                <td>
+                                                                <td class="item-right">
                                                                     <a href="www.example.com" target="_blank"
                                                                         style="font-size: 18px; font-weight: 500; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">Netgear
                                                                         - External
@@ -303,7 +335,7 @@
                                             <table width="100%" style="border-spacing: 0; margin: 20px 0;" border="0"
                                                 cellspacing="0" cellpadding="0" role="presentation">
                                                 <tr>
-                                                    <td width="100%">
+                                                    <td width="100%" class="summary">
                                                         <h2
                                                             style="color: #3d3d3d; margin: 0; padding-bottom: 0; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; padding-bottom: 30px;">
                                                             Your Order Summary.
@@ -457,7 +489,7 @@
 
                                                             Bring to the Location.
                                                         </h5>
-                                                        <p style="font-size: 18px; margin: 0; padding-bottom: 10px;">
+                                                        <p style="font-size: 18px; margin: 0; padding-bottom: 5px;">
                                                             Your government-issued
                                                             photo ID.</p>
                                                         <p style="font-size: 18px; margin: 0;">Your order number.</p>
